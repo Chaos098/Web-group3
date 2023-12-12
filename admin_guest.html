@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css" />
+
+    <link rel="stylesheet" href="css/Main/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Literata:wght@500;700&amp;family=Rubik:wght@400;500;700&amp;display=swap">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Admin/admin.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!--top header-->
+    <header>
+
+
+        <div class="row bg-red-light navi">
+
+
+            <!-- Logo -->
+            <div class="col-xl-4 col-2">
+                <a href="#">
+                    <img src="Images/Main/Thiet_ke_chua_co_ten.png" alt="">
+                    <i class="fas logo"> CHOPY STORE</i>
+                </a>
+            </div>
+
+
+
+
+        </div>
+
+
+    </header>
+    <!-- End top header-->
+
+
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="">
+                    <span class="icon"></span>
+                    <span class="title">
+                        <i class="far fa-user" style="font-size: 24px;"></i>
+                        <p class="d-inline" style="font-size: 24px;" id="admin_name" href=""></p>
+                    </span>
+
+
+                </a>
+            </li>
+
+            <li>
+                <a href="admin_state.html">
+                    <span class="icon">
+                      <ion-icon name="trending-up"></ion-icon>
+                    </span>
+                    <span class="title">Thống kê dữ liệu</span> <!--Help-->
+                </a>
+            </li>
+
+            <li>
+                <a href="admin.html">
+                    <span class="icon">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                    </span>
+                    <span class="title">Quản lý sản phẩm</span> <!--Help-->
+                </a>
+            </li>
+
+            <li>
+                <a href="#" target="_self">
+                    <span class="icon">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </span>
+                    <span class="title">Quản lý khách hàng </span> <!--Customers-->
+                </a>
+            </li>
+
+
+            <li>
+                <a href="admin_order.html">
+                    <span class="icon">
+
+                        <ion-icon name="cube-outline"></ion-icon>
+                    </span>
+                    <span class="title">Quản lý đơn hàng</span>
+                </a>
+            </li>
+
+            <!-- <li>
+                    <a href ="">
+                        <span = class="icon"> 
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Setting </span>
+                    </a>
+                </li> -->
+            <li>
+                <a href="" id="log-out" data-bs-toggle="modal" data-bs-target="#myModal_1">
+                    <span class="icon"></span>
+                    <span class="title">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="35" width="35" viewBox="0 0 24 24"
+                            fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm10.72 4.72a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06l1.72-1.72H9a.75.75 0 010-1.5h10.94l-1.72-1.72a.75.75 0 010-1.06z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Đăng Xuất
+                    </span>
+
+                </a>
+
+            </li>
+            <div class="modal" id="myModal_1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <button type="button" class="btn btn-danger">
+                                <a href="admin_login.html" style="color: white;">Đăng Xuất</a>
+                            </button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="text-center mt-2 mb-3">
+            <h1>Quản Lý Khách Hàng</h1>
+        </div>
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="container ul-reset">
+                <li class='droppable'>
+                    <a href='#'>Trạng thái khách hàng</a>
+                    <div class='mega-menu-1'>
+                        <div class="d-flex flex-column">
+
+                            <div class="container_1 cf d-flex flex-row">
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                        </svg>
+                                        <span>Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Châu Gia Huy</h4>
+                                    </div>
+                                </div>
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                          </svg>
+                                          
+                                          
+                                        <span>Khoá Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Trần Bình Minh</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                          </svg>
+                                          
+                                        <span>Cấm Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Trần Minh Quân</h4>
+                                    </div>
+                                </div>
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                        </svg>
+                                        <span>Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Nguyễn Đức Gia Bảo</h4>
+                                    </div>
+                                </div>
+
+
+                            </div><!-- .container -->
+
+                            <div class="container_1 cf d-flex flex-row">
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                          </svg>
+                                          
+                                        <span>Khoá Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Lê Đức Anh</h4>
+                                    </div>
+                                </div>
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                          </svg>
+                                          
+                                        <span>Cấm Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Phạm Ngọc Triều</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                        </svg>
+                                        <span>Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Trương Gia Hưng</h4>
+                                    </div>
+                                </div>
+
+                                <div class="m-4 p-3 guest" style="height: fit-content;">
+
+                                    <div class="img-guest m-5" style="width: fit-content;">
+                                        <img class="w-50" src="Images/Admin/Monkey_D_Luffy.png" alt="">
+                                    </div>
+
+                                    <div class="m-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                        </svg>
+                                        <span>Hoạt động</span>
+                                    </div>
+
+
+                                    <br><br>
+
+                                    <a href="admin-guest_info.html" style="text-decoration: none; color: #000;">
+                                        <div class="state-guest w-25 d-inline"
+                                            style="border: black solid 1px; border-radius: 5px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                fill="currentColor" class="w-6 h-6">
+                                                <path fill-rule="evenodd"
+                                                    d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+
+                                            <span>Thông tin chi tiết</span>
+                                        </div>
+                                    </a>
+
+                                    <div class="name-guest">
+                                        <h4>Châu Gia Huy</h4>
+                                    </div>
+                                </div>
+
+
+                            </div><!-- .container -->
+                        </div>
+
+
+
+                    </div><!-- .mega-menu -->
+                </li><!-- .droppable -->
+
+                <li class='droppable'>
+                    <a href='#'>Thêm khách hàng</a>
+                    <div class='mega-menu-1'>
+                        
+                        <div class="pb-3">
+                            <div class="p-2 d-flex flex-row">
+                                <div class="me-3 p-3" style="border: 1px solid black;">
+        
+                                    <!-- Phần hình ảnh -->
+                                    <div class="guest-img" style="height: 150px; width: 150px; border: 1px solid black;">
+                                        <img class="w-100" style="height: 150px; width: 150px;" src="" alt="" id="image">
+                                    </div>
+        
+        
+                                    <!-- Nút xoá ảnh thêm ảnh -->
+                                    <div class="mt-4 item-change" style="text-align: center;">
+                                        <input type="file" id="file" onchange="chooseFile(this)"/>
+                                        <label for="file" class="btn-2">upload</label>
+        
+                                    </div>
+        
+                                </div>
+        
+                                <!-- Thông tin khách hàng -->
+                                <div class="w-100 p-3 guest-name" style="border: 1px solid black;">
+                                    <!-- Tên -->
+                                    <p class="d-inline" style="font-weight: bolder;">Họ và tên:</p>
+                                    <input class="w-100" type="text" placeholder="Thay đổi tên khách hàng" id="name">
+                                    <br>
+        
+                                    
+                                    <br>
+        
+                                    <!-- Số điện thoại -->
+                                    <p class="d-inline" style="font-weight: bolder;">Số điện thoại:</p>
+                                    <input class="w-100" type="text" placeholder="Thay đổi số điện thoại" id="phone">
+                                    <br>
+        
+                                    
+                                    <br>
+        
+                                    <!-- Địa chỉ -->
+                                    <p class="d-inline" style="font-weight: bolder;">Địa chỉ:</p>
+                                    <input class="w-100" type="text" placeholder="Thay đổi địa chỉ" id="address">
+                                    <br>
+        
+                                    
+                                    <br><br>
+        
+                                    <div class="p-2 me-3 state-guest w-25 d-inline"
+                                        style="border: black solid 1px; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                                            stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                        </svg>
+                                        <span id="static">Hoạt động</span>
+                                    </div>
+        
+                                    <!-- Trạng thái -->
+                                    <select name="" id="state" class="d-inline p-2" onclick="changeState()"
+                                        style="background-color: #f0f0f0; border-radius: 5px;">
+                                        <option value="Chỉnh sửa trạng thái">Trạng thái</option>
+                                        <option value="Đang hoạt động">Đang hoạt động</option>
+                                        <option value="Khoá hoạt động">Khoá hoạt động</option>
+                                        <option value="Cấm hoạt động">Cấm hoạt động</option>
+                                    </select>
+                                </div>
+        
+        
+        
+        
+        
+                            </div>
+        
+        
+        
+                            <div class="upload" style="text-align: center;">
+                                <button onclick="submitAdd()" type="submit" style="border-radius: 10px;">Hoàn
+                                    thành</button>
+                            </div>
+                        </div>
+
+
+
+                    </div><!-- .mega-menu -->
+                </li><!-- .droppable -->
+                
+
+            </ul><!-- .container .ul-reset -->
+
+
+        </nav>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- =======ionicons======= -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/Admin/admin.js"></script>
+    <script src="js/Admin/admin_login.js"></script>
+</body>
+
+</html>

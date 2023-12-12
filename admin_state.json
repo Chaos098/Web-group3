@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "brand": "Asus",
+      "name": "Laptop gaming ASUS TUF Gaming A15 FA507NU LP034W",
+      "category": "Laptop",
+      "price": "24.690.000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+      "stocked": 1,
+      "created_at": "2020/8/4",
+      "updated_at": "2020/8/20"
+    },
+    {
+      "id": 2,
+      "brand": "Acer",
+      "name": "Laptop gaming Acer Predator Helios 300 PH315 55 76KG",
+      "category": "Laptop",
+      "price": "30.990.000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+      "stocked": 2,
+      "created_at": "2020/1/5",
+      "updated_at": "2020/3/8"
+    },
+    {
+      "id": 3,
+      "brand": "Rapoo",
+      "name": "Chuột Rapoo Không dây V300SE Trắng",
+      "category": "Tai nghe",
+      "price": "1.090.000",
+      "description": "Sit amet consectetur adipisicing elit. Aliquam quo quas itaque natus voluptatibus neque, ipsa autem possimus obcaecati molestiae?",
+      "stocked": 3,
+      "created_at": "2019/1/2",
+      "updated_at": "2019/4/8"
+    },
+    {
+      "id": 4,
+      "brand": "Asus",
+      "name": "Chuột Gaming Asus TUF M4 Wireless",
+      "category": "Tai nghe",
+      "price": "890.000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+      "stocked": 2,
+      "created_at": "2019/3/11",
+      "updated_at": "2019/11/13"
+    },
+    {
+        "id": 5,
+        "brand": "Asus",
+        "name": "Laptop gaming ASUS TUF Gaming A15 FA507NU LP034W",
+        "category": "Laptop",
+        "price": "24.690.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 1,
+        "created_at": "2020/8/4",
+        "updated_at": "2020/8/20"
+      },
+      {
+        "id": 6,
+        "brand": "Acer",
+        "name": "Laptop gaming Acer Predator Helios 300 PH315 55 76KG",
+        "category": "Laptop",
+        "price": "30.990.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 2,
+        "created_at": "2020/1/5",
+        "updated_at": "2020/3/8"
+      },
+      {
+        "id": 7,
+        "brand": "Rapoo",
+        "name": "Chuột Rapoo Không dây V300SE Trắng",
+        "category": "Tai nghe",
+        "price": "1.090.000",
+        "description": "Sit amet consectetur adipisicing elit. Aliquam quo quas itaque natus voluptatibus neque, ipsa autem possimus obcaecati molestiae?",
+        "stocked": 3,
+        "created_at": "2019/1/2",
+        "updated_at": "2019/4/8"
+      },
+      {
+        "id": 8,
+        "brand": "Asus",
+        "name": "Chuột Gaming Asus TUF M4 Wireless",
+        "category": "Tai nghe",
+        "price": "890.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 2,
+        "created_at": "2019/3/11",
+        "updated_at": "2019/11/13"
+      },
+      {
+        "id": 9,
+        "brand": "Asus",
+        "name": "Laptop gaming ASUS TUF Gaming A15 FA507NU LP034W",
+        "category": "Laptop",
+        "price": "24.690.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 1,
+        "created_at": "2020/8/4",
+        "updated_at": "2020/8/20"
+      },
+      {
+        "id": 10,
+        "brand": "Acer",
+        "name": "Laptop gaming Acer Predator Helios 300 PH315 55 76KG",
+        "category": "Laptop",
+        "price": "30.990.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 2,
+        "created_at": "2020/1/5",
+        "updated_at": "2020/3/8"
+      },
+      {
+        "id": 11,
+        "brand": "Rapoo",
+        "name": "Chuột Rapoo Không dây V300SE Trắng",
+        "category": "Tai nghe",
+        "price": "1.090.00",
+        "description": "Sit amet consectetur adipisicing elit. Aliquam quo quas itaque natus voluptatibus neque, ipsa autem possimus obcaecati molestiae?",
+        "stocked": 3,
+        "created_at": "2019/1/2",
+        "updated_at": "2019/4/8"
+      },
+      {
+        "id": 12,
+        "brand": "Asus",
+        "name": "Chuột Gaming Asus TUF M4 Wireless",
+        "category": "Tai nghe",
+        "price": "890.000",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
+        "stocked": 2,
+        "created_at": "2019/3/11",
+        "updated_at": "2019/11/13"
+      }
+  ]
