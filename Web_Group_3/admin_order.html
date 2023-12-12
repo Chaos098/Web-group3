@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/Main/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Literata:wght@500;700&amp;family=Rubik:wght@400;500;700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/Admin/admin.css" />
+    <link
+      rel="shortcut icon"
+      href="Images/Main/Thiet_ke_chua_co_ten.png"
+      type="image/png"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <!--top header-->
+    <header>
+      <div class="row bg-red-light navi">
+        <!-- Logo -->
+        <div class="col-xl-4 col-2">
+          <a href="#">
+            <img src="Images/Main/Thiet_ke_chua_co_ten.png" alt="" />
+            <i class="fas logo"> CHOPY STORE</i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- End top header-->
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="">
+            <span class="icon"></span>
+            <span class="title">
+              <i class="far fa-user" style="font-size: 24px"></i>
+              <p
+                class="d-inline"
+                style="font-size: 24px"
+                id="admin_name"
+                href=""
+              ></p>
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="admin_state.html">
+            <span class="icon">
+              <ion-icon name="trending-up"></ion-icon>
+            </span>
+            <span class="title">Thống kê dữ liệu</span>
+            <!--Help-->
+          </a>
+        </li>
+
+        <li>
+          <a href="admin.html">
+            <span class="icon">
+              <ion-icon name="bag-handle-outline"></ion-icon>
+            </span>
+            <span class="title">Quản lý sản phẩm</span>
+            <!--Help-->
+          </a>
+        </li>
+
+        <li>
+          <a href="admin_guest.html " target="_self">
+            <span class="icon">
+              <ion-icon name="people-outline"></ion-icon>
+            </span>
+            <span class="title">Quản lý khách hàng </span>
+            <!--Customers-->
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="cube-outline"></ion-icon>
+            </span>
+            <span class="title">Quản lý đơn hàng</span>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href=""
+            id="log-out"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal_1"
+          >
+            <span class="icon"></span>
+            <span class="title">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="35"
+                width="35"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm10.72 4.72a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06l1.72-1.72H9a.75.75 0 010-1.5h10.94l-1.72-1.72a.75.75 0 010-1.06z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Đăng Xuất
+            </span>
+          </a>
+        </li>
+        <div class="modal" id="myModal_1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <button type="button" class="btn btn-danger">
+                  <a href="admin_login.html" style="color: white">Đăng Xuất</a>
+                </button>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="text-center mt-2 mb-3">
+        <h1>Quản Lý Đơn Hàng</h1>
+      </div>
+
+      <div class="container-fluid">
+        <div class="pb-3">
+          <div class="p-2 d-flex flex-row">
+            <div class="me-3 p-3" style="border: 1px solid black">
+              <!-- Phần hình ảnh -->
+              <div
+                class="guest-img"
+                style="height: 150px; width: 150px; border: 1px solid black"
+              >
+                <img
+                  class="w-100"
+                  style="height: 150px; width: 150px"
+                  src="Images/Admin/Monkey_D_Luffy.png"
+                  alt=""
+                  id="image_1"
+                />
+              </div>
+            </div>
+
+            <!-- Thông tin khách hàng -->
+            <div class="p-3 guest-name" style="border: 1px solid black">
+              <!-- Tên -->
+              <p class="d-inline" style="font-weight: bolder">Họ và tên:</p>
+              <p class="d-inline" style="font-weight: bolder" id="name-guest">
+                Nguyễn Đức Gia Bảo
+              </p>
+              <br />
+
+              <!-- Số điện thoại -->
+              <p class="d-inline" style="font-weight: bolder">Số điện thoại:</p>
+              <p class="d-inline" style="font-weight: bolder" id="phone-guest">
+                0772036521
+              </p>
+              <br />
+
+              <!-- Địa chỉ -->
+              <p class="d-inline" style="font-weight: bolder">Địa chỉ:</p>
+              <p class="d-inline" style="font-weight: bolder" id="address">
+                68B8 Đặng Nguyên Cẩn phường 14 quận 6 thành phố Hồ Chí Minh
+              </p>
+              <br />
+
+              <br /><br />
+
+              <br />
+
+              <button
+                data-toggle="collapse"
+                data-target="#demo1"
+                class="accordion-toggle"
+                style="background: none"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                Chi tiết đơn hàng
+              </button>
+            </div>
+          </div>
+
+          <div class="accordian-body collapse" id="demo1">
+            <div class="container-fluid">
+              <div class="table-app" id="product-table-app">
+                <div class="table-handler">
+                  <div class="table-handler-dropdown-cell">
+                    <div class="dropdown">
+                      <h3 class="dropdown-heading">
+                        <i class="fas fa-filter"></i> Brand
+                      </h3>
+                      <select
+                        class="select js-handle-table js-filter"
+                        id="filter-brand"
+                      >
+                        <option value="all">All</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="table-handler-dropdown-cell">
+                    <div class="dropdown">
+                      <h3 class="dropdown-heading">
+                        <i class="fas fa-filter"></i> Category
+                      </h3>
+                      <select
+                        class="select js-handle-table js-filter"
+                        id="filter-category"
+                      >
+                        <option value="all">All</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="table-handler-dropdown-cell">
+                    <div class="dropdown">
+                      <h3 class="dropdown-heading">
+                        <i class="fas fa-sort-amount-up-alt"></i> Sort by
+                      </h3>
+                      <select class="select js-handle-table" id="sort-by">
+                        <option value="none">-</option>
+                        <option value="price">Price</option>
+                        <option value="created_at">Created at</option>
+                        <option value="updated_at">Updated at</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="table-handler-dropdown-cell">
+                    <!-- TODO: add label and create style -->
+                    <input
+                      type="checkbox"
+                      class="js-handle-table"
+                      id="toggle"
+                      value="hiding-out-of-stock"
+                    />
+                    <label for="toggle">Hiding out-of-stock products</label>
+                  </div>
+                </div>
+                <!-- /.table-handler -->
+
+                <div class="table-wrapper">
+                  <table class="table" id="table">
+                    <thead>
+                      <tr class="table-head">
+                        <th class="table-cell align-right">ID</th>
+                        <th class="table-cell align-left">Brand</th>
+                        <th class="table-cell align-left">Name</th>
+                        <th class="table-cell align-left">Category</th>
+                        <th class="table-cell align-right">Price</th>
+                        <th class="table-cell align-left">Status</th>
+                        <th class="table-cell align-left">Created at</th>
+                        <th class="table-cell align-left">Updated at</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <!-- Loop -->
+                    </tbody>
+                  </table>
+
+                  <div class="no-results hidden" id="no-results">
+                    <p class="no-results-message">No results found.</p>
+                  </div>
+                  <!-- /#no-results -->
+                </div>
+                <!-- /.table-wrapper -->
+              </div>
+              <!-- /.table-app -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======ionicons======= -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/766b3aafc5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+
+    <script src="js/Admin/admin.js"></script>
+    <script src="js/Admin/admin_login.js"></script>
+    <script src="js/Admin/admin_order.js"></script>
+  </body>
+</html>

@@ -1,0 +1,747 @@
+.navi .logo {
+  /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(69,117,252,1) 100%); */
+  background: -webkit-radial-gradient(circle, rgba(239,247,0,0.8029805672268908) 21%, rgba(203,120,201,1) 64%, rgba(222,47,218,1) 64%, rgba(0,0,0,0.6097032563025211) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.menu {
+  background-color: white;
+}
+
+
+.navi #list a,
+.navi #list i,
+.navi .button i,
+.navi img {
+  color: white;
+}
+
+.navi .bar {
+  text-align: center;
+}
+
+.navi {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Chỉnh Phần Offcanvas */
+.navi .bar .button {
+  background: none;
+  border: none;
+}
+
+.offcanvas {
+  width: 75% !important;
+  height: 100vh;
+}
+
+.navi .offcanvas-header {
+  height: 50px;
+}
+
+
+.navi .offcanvas-body a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.navi .offcanvas-body .collapse {
+  list-style-type: none;
+}
+
+.navi .offcanvas-body hr {
+
+  border: #000 solid 0.5px;
+}
+
+
+
+
+
+.banner {
+  margin-top: 10px;
+}
+
+/* Chỉnh phần bán chạy */
+/* Defines the width of the carousel and centers it on the page */
+.slick-carousel {
+  margin: 0 auto;
+}
+
+/* Color of the arrows */
+.slick-next::before,
+.slick-prev::before {
+  color: black;
+}
+
+.slick-text {
+  font-weight: bold;
+  font-size: 10px;
+
+}
+
+.slick-text scroll {
+  display: block;
+}
+
+.slick-slide {
+  border: 1px solid black;
+}
+
+.slick-slide text {
+  display: block;
+}
+
+.carousel-inner .carousel-item img {
+  border-radius: 5px;
+}
+
+.run {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+.signature {
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.khung {
+  margin-left: 0.5em;
+  border-radius: 10px;
+}
+
+
+.bg-red-light {
+  background-color: rgb(232, 4, 28);
+}
+
+#fontstyle {
+  display: block;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 70px;
+}
+
+#footer a {
+  color: black;
+}
+
+#h4 {
+  text-align: center;
+}
+
+#email {
+  background-color: black;
+}
+
+
+
+
+
+#col-1 {
+  margin-left: 0;
+}
+
+#colr1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+
+body {
+  background-color: rgba(236, 236, 236, 255);
+}
+
+
+
+
+
+
+
+
+
+.post-slide {
+  background: #fff;
+  margin: 20px 15px 20px;
+  border-radius: 15px;
+  padding-top: 1px;
+  box-shadow: 0px 14px 22px -9px #bbcbd8;
+}
+
+.post-slide .post-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: -12px 15px 8px 15px;
+  margin-left: -10px;
+}
+
+.post-slide .post-img img {
+  width: 100%;
+  height: auto;
+  transform: scale(1, 1);
+  transition: transform 0.2s linear;
+}
+
+.post-slide:hover .post-img img {
+  transform: scale(1.1, 1.1);
+}
+
+.post-slide .over-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(-45deg, rgba(6, 190, 244, 0.75) 0%, rgba(45, 112, 253, 0.6) 100%);
+  transition: all 0.50s linear;
+}
+
+.post-slide:hover .over-layer {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.post-slide .over-layer i {
+  position: relative;
+  top: 45%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 25px;
+}
+
+/* #shopping-cart {
+  background-color: rgb(116, 120, 117);
+} */
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navi {
+  min-height: 85px;
+}
+
+@media only screen and (max-width:1000px) and (min-width: 400px) {
+  .toolbar-menu-mobile {
+    background: #fff;
+    bottom: 0;
+    border-top: 2px solid #e10b24;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    display: flex;
+    position: fixed !important;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .toolbar-menu-mobile .row .col-3 {
+    text-align: center;
+  }
+
+  .toolbar-menu-mobile .row .col-3 i {
+    font-size: 24px;
+  }
+
+  .toolbar-menu-mobile .row .col-3 span {
+    font-size: 16px;
+
+  }
+
+}
+
+@media only screen and (max-width:400px) {
+  .toolbar-menu-mobile {
+    background: #fff;
+    bottom: 0;
+    border-top: 2px solid #e10b24;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    display: flex;
+    position: fixed !important;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .toolbar-menu-mobile .row .col-3 {
+    text-align: center;
+  }
+
+  .toolbar-menu-mobile .row .col-3 i {
+    font-size: 18px;
+  }
+
+  .toolbar-menu-mobile .row .col-3 span {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+
+}
+
+@media only screen and (max-width:1280px) {
+  .post-slide .post-content {
+    padding: 0px 15px 25px 15px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .navi .offcanvas-header {
+    height: fit-content;
+  }
+
+  .navi .offcanvas-title {
+    font-size: 15px;
+  }
+
+  .navi .offcanvas-body span {
+    color: #000;
+    font-family: "SF Pro Display", 'Arial', sans-serif;
+    font-size: 15px;
+  }
+
+  .navi .offcanvas-body span svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .navi .offcanvas-body svg {
+    width: 10px !important;
+    height: 6px !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Phần header */
+  .navi {
+    padding-top: 10px;
+  }
+
+  .navi .fas {
+    font-size: 14px;
+  }
+
+  .navi .row .col-12 {
+    align-items: center;
+  }
+
+  .navi .row .col-12 .col-12 {
+    text-align: center;
+  }
+
+  .navi img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+  }
+
+
+  /* Phần sản phẩm bán chạy */
+  .sanpham {
+    color: black;
+    font-family: "SF Pro Display", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+
+  .property p {
+    font-size: 13px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+
+  .navi .offcanvas-header {
+    height: fit-content;
+  }
+
+  .navi .offcanvas-title {
+    font-size: 20px;
+  }
+
+  .navi .offcanvas-body span {
+    color: #000;
+    font-family: "SF Pro Display", 'Arial', sans-serif;
+    font-size: 20px;
+  }
+
+  .navi .offcanvas-body span svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .navi .offcanvas-body svg {
+    width: 15px !important;
+    height: 9px !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Phần Header */
+  .navi {
+    padding-top: 10px;
+  }
+
+  .navi .fas {
+    font-size: 20px;
+  }
+
+  .navi img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+
+
+  /* Phần sản phẩm bán chạy */
+  .sanpham {
+    color: black;
+    font-family: "SF Pro Display", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+
+  .navi .offcanvas-header {
+    height: fit-content;
+  }
+
+  .navi .offcanvas-title {
+    font-size: 30px;
+  }
+
+  .navi .offcanvas-body span {
+    color: #000;
+    font-family: "SF Pro Display", 'Arial', sans-serif;
+    font-size: 30px;
+  }
+
+  .navi .offcanvas-body span svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .navi .offcanvas-body svg {
+    width: 20px !important;
+    height: 12px !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Phần Header */
+  .navi {
+    padding-top: 40px;
+  }
+
+  .navi .fas {
+    font-size: 20px;
+  }
+
+  .navi img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+
+  /* Phần sản phẩm bán chạy */
+  .sanpham {
+    color: black;
+    font-family: "SF Pro Display", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1001px) {
+
+  .navi .offcanvas-header {
+    height: fit-content;
+  }
+
+  .navi .offcanvas-title {
+    font-size: 35px;
+  }
+
+  .navi .offcanvas-body span {
+    color: #000;
+    font-family: "SF Pro Display", 'Arial', sans-serif;
+    font-size: 35px;
+  }
+
+  .navi .offcanvas-body span svg {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .navi .offcanvas-body svg {
+    width: 20px !important;
+    height: 12px !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Phần Header */
+  .navi {
+    padding-top: 40px;
+  }
+
+  .navi .fas {
+    font-size: 28px;
+  }
+
+  .navi img {
+    width: 50px;
+    height: 50px;
+    margin-left: 2em;
+  }
+
+  /* Phần Menu */
+  .menu ul li {
+    margin-right: 1em;
+  }
+
+
+  /* Phần sản phẩm bán chạy */
+  .sanpham {
+    color: black;
+    font-family: "SF Pro Display", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+
+  .main-menu li>a {
+    position:relative;
+    margin-bottom:1em;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:black;
+     font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+      
+    }
+
+    .nav-header p {
+      font-weight: bold;
+      font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+  /* Phần header */
+  .navi .fas {
+    font-size: 30px;
+  }
+
+  .navi img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+  }
+
+  /* Phần Menu */
+  .menu ul li {
+    margin-right: 4em;
+  }
+
+  /* Phần sản phẩm bán chạy */
+  .sanpham {
+    color: black;
+    font-family: "SF Pro Display", "Arial", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+  }
+
+  .main-menu li>a {
+    position:relative;
+    margin-bottom:1.5em;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:black;
+     font-family: arial;
+    font-size: 20px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+      
+    }
+
+    .nav-header p {
+      padding-top: 0.75em;
+      font-weight: bold;
+      font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+
+.fa-2x svg {
+  width: 35px;
+  height: 28px;
+}
+.fa-icon {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background:white;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:60px;
+
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:50;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+}
+
+
+
+
+
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+font-family: "SF Pro Display", 'Arial', sans-serif;
+}
+
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:red;
+padding-left: 0;
+margin-left: 0;
+}
+
+.nav-text:hover::after {
+  content: '';
+  position: absolute;
+  top:0px;
+  right:-20.5px;
+  width: 0px;
+  height: 0px;
+  /* border: #000 solid 25px; */
+  /* border-width: 25px 25px 0px 0px; */
+  border-top: 18px solid transparent;
+  border-left: 20px solid red;
+  border-bottom: 18px solid transparent;
+
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
